@@ -1,0 +1,16 @@
+{
+  "name": "bitcoin-crypt-predict",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": " nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.8",
+    "express": "^4.16.4",
+    "nodemon": "^2.0.12"
+  }
+}
