@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6, figure {
  */
       /* ///////////////////////////////////////////////////////////////////////////////////////// */
 
-            
+      
 
 .colorlib-video {
   overflow: hidden;
@@ -255,7 +255,7 @@ h1, h2, h3, h4, h5, h6, figure {
     height: 90px;
     display: table;
     text-align: center;
-    background: #647ce9;
+    background: #0fa81c;
     -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
     -ms-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
@@ -291,13 +291,14 @@ h1, h2, h3, h4, h5, h6, figure {
     transform: scale(1.1); }
 
 .video-hero {
+
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
   z-index: 0; }
   @media screen and (max-width: 768px) {
     .video-hero {
-      heifght: inherit;
+      height: inherit;
       padding: 3em 0; } }
   .video-hero .overlay {
     position: absolute;
@@ -307,9 +308,9 @@ h1, h2, h3, h4, h5, h6, figure {
     right: 0;
     opacity: 0.95;
     background: #f3a109;
-    background: -moz-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
+    background: -moz-linear-gradient(-45deg, #499bea 0%, #3b3d42 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, #499bea), color-stop(100%, #798eea));
-    background: -webkit-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
+    background: -webkit-linear-gradient(-45deg, #00498d 0%, #798eea 100%);
     background: -o-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
     background: -ms-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
     background: -webkit-linear-gradient(315deg, #499bea 0%, #798eea 100%);
@@ -429,7 +430,7 @@ h1, h2, h3, h4, h5, h6, figure {
     display: table;
     margin: 0 auto;
     text-align: center;
-    background: #798eea;
+    background: #79eab2;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -851,7 +852,7 @@ article {
     top: 0;
     left: 0;
     right: 0;
-    background: #499bea;
+    background: #a5462f;
     background: -moz-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, #499bea), color-stop(100%, #798eea));
     background: -webkit-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
