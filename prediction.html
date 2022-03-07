@@ -51,8 +51,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
     <script src="./util.js"></script>
     <script src="controller.js"></script>
+
+	
 	</head>
 	<body>
+		
+		
 		
 	<div class="colorlib-loader"></div>
 
@@ -68,7 +72,7 @@
 							<ul>
 								<li><a href="index.html">Home</a></li>
                                 <li class="active"><li><a href="prediction.html">Prediction</a></li>
-								<a href="services.html">Services</a>
+								
 								<li><a href="blog.html">Blog</a></li>
 								<li><a href="price.html">Price</a></li>
                                 <li><a href="about.html">About</a></li>
@@ -79,6 +83,8 @@
 				</div>
 			</div>
 		</nav>
+
+		
 
 		<section id="home" class="video-hero" style="height: 500px; background-image: url(images/cover_img_1.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
 		<div class="overlay"></div>
@@ -96,8 +102,45 @@
 			</div>
 		</section>
 
+		<section>
+
+		 <!--trading view code -->
+		
+		 <br>
+
+		 	<div class="tradingview-widget-container" id="tvchart">
+			<div class="tradingview-widget-container">
+				<div id="tradingview_7b561"></div>
+				<div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/BTCUSDT/?exchange=BINANCE" rel="noopener" target="_blank"><span class="blue-text">BTCUSDT Chart</span></a> by TradingView</div>
+				<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+				<script type="text/javascript">
+				new TradingView.widget(
+				{
+				"width": 980,
+				"height": 610,
+				"symbol": "BINANCE:BTCUSDT",
+				"interval": "15",
+				"timezone": "Asia/Kolkata",
+				"theme": "light",
+				"style": "1",
+				"locale": "in",
+				"toolbar_bg": "#f1f3f6",
+				"enable_publishing": false,
+				"allow_symbol_change": true,
+				"container_id": "tradingview_7b561"
+			  }
+				);
+				</script>
+				<p><center><a href="#" class="btn btn-primary">Predict now</a></center></p>
+			  </div>
+			
+			 
+		 	</div>
+    		<!--trading view close-->	
+
+
 		<div class="colorlib-services colorlib-bg-white">
-                                        <div style="width:1300px">
+                                        <div style="width:300px">
                                             <canvas id="chart1"></canvas>
                                         </div>
             <div>
@@ -283,6 +326,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/jquery.countTo.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+
 
 	</body>
 </html>
